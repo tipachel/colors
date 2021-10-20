@@ -18,30 +18,25 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WgB-s6-Xl6">
-                                <rect key="frame" x="20" y="44" width="374" height="400"/>
-                                <color key="backgroundColor" systemColor="systemYellowColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="WgB-s6-Xl6" secondAttribute="height" multiplier="187:200" id="sre-PX-XmL"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="64" width="374" height="390"/>
+                                <color key="backgroundColor" systemColor="systemBlueColor"/>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CFW-zr-cIn">
-                                <rect key="frame" x="20" y="452" width="374" height="400"/>
-                                <color key="backgroundColor" systemColor="systemBlueColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="CFW-zr-cIn" secondAttribute="height" multiplier="187:200" id="LNm-bA-ZeH"/>
-                                </constraints>
+                                <rect key="frame" x="20" y="462" width="374" height="390"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray6Color"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CFW-zr-cIn" secondAttribute="bottom" constant="10" id="IWc-jk-Eym"/>
-                            <constraint firstItem="WgB-s6-Xl6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Sfg-gk-9qF"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CFW-zr-cIn" secondAttribute="trailing" constant="20" id="TCr-T4-Kdm"/>
-                            <constraint firstItem="CFW-zr-cIn" firstAttribute="top" secondItem="WgB-s6-Xl6" secondAttribute="bottom" constant="8" symbolic="YES" id="WQ4-jx-3yq"/>
-                            <constraint firstItem="WgB-s6-Xl6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Y7N-52-kXr"/>
-                            <constraint firstItem="CFW-zr-cIn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Yjg-1n-3GB"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WgB-s6-Xl6" secondAttribute="trailing" constant="20" id="ZAg-jW-JpA"/>
+                            <constraint firstItem="WgB-s6-Xl6" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="1Nk-y8-uwA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CFW-zr-cIn" secondAttribute="trailing" constant="20" id="6SF-VC-V6I"/>
+                            <constraint firstItem="WgB-s6-Xl6" firstAttribute="height" secondItem="CFW-zr-cIn" secondAttribute="height" id="7Do-9w-PwY"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CFW-zr-cIn" secondAttribute="bottom" constant="10" id="7f7-VU-gRv"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="WgB-s6-Xl6" secondAttribute="trailing" constant="20" id="aEG-Qn-qPU"/>
+                            <constraint firstItem="CFW-zr-cIn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="gp7-GZ-srt"/>
+                            <constraint firstItem="WgB-s6-Xl6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="y50-KS-eq4"/>
+                            <constraint firstItem="CFW-zr-cIn" firstAttribute="top" secondItem="WgB-s6-Xl6" secondAttribute="bottom" constant="8" symbolic="YES" id="y92-rM-diS"/>
                         </constraints>
                     </view>
                 </viewController>
